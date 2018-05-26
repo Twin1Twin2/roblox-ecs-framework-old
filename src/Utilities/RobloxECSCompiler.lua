@@ -5,6 +5,10 @@ local RobloxEntity = require("RobloxEntity")
 
 local RobloxClassWrapperComponents = require("RobloxClassWrapperComponents")
 
+if (RobloxClassWrapperComponents == nil) then
+    RobloxClassWrapperComponents = {}
+end
+
 local RobloxECSCompiler = {
     ClassName = "RobloxECSCompiler";
 }
