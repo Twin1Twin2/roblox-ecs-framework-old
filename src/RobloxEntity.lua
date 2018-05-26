@@ -27,6 +27,11 @@ local RobloxEntity = {
 RobloxEntity.__index = RobloxEntity
 
 
+function RobloxEntity:IsEntity()
+    return true
+end
+
+
 function RobloxEntity:HasComponents(...)
     local components = {...}
     local hasValidComponents = true

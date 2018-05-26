@@ -6,6 +6,11 @@ local RobloxComponent = {
 RobloxComponent.__index = RobloxComponent
 
 
+function RobloxComponent:IsComponent()
+    return true
+end
+
+
 function RobloxComponent:Destroy()
      if (self.Instance ~= nil) then
         self.Instance:Destroy()
