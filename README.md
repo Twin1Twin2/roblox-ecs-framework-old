@@ -11,10 +11,12 @@ What is an ECS?
 
 In order to use this framework, you must have the [NevermoreEngine by Quenty](https://github.com/Quenty/NevermoreEngine) installed.
 
-An easy eay to install it is by pasting the following code in the command bar in Roblox Studio:
+An easy way to install it is by pasting the following code into the command bar in Roblox Studio:
 
 ```lua
-local h = game:GetService("HttpService") local e = h.HttpEnabled h.HttpEnabled = true loadstring(h:GetAsync("https://raw.githubusercontent.com/Quenty/NevermoreEngine/version2/Install.lua"))(e)
+local h = game:GetService("HttpService")
+local e = h.HttpEnabled h.HttpEnabled = true
+loadstring(h:GetAsync("https://raw.githubusercontent.com/Quenty/NevermoreEngine/version2/Install.lua"))(e)
 ```
 
 ## Examples
