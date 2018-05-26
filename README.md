@@ -5,7 +5,7 @@ Entity-Component-System framework for use in Roblox games
 
 What is an ECS?
 * [Wikipedia](https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system)
-* (http://entity-systems.wikidot.com/)
+* [http://entity-systems.wikidot.com/]
 
 ## Requirements
 
